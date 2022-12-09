@@ -1,0 +1,30 @@
+.bg-img1 {
+  background-color: #000;
+  background-size: cover;
+  background-image: url("img/picture1.jpg");
+}
+
+.bg-img2 {
+  background-color: #000;
+  background-size: cover;
+  background-image: url("img/picture2.jpg");
+}
+
+.bg-img3 {
+  background-color: #000;
+  background-size: cover;
+
+  background-image: linear-gradient(
+      rgba(56, 51, 51, 0.762),
+      rgb(56, 51, 51, 0.762)
+    ),
+    url("img/picture3.jpg");
+}
+
+.carousel-inner,
+.carousel-inner > * {
+  height: 500px;
+}
+.carousel-inner {
+  margin-bottom: 100px;
+}
